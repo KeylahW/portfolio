@@ -90,3 +90,24 @@ body, html {
     background-color: #202020;
     color: aliceblue;
   }
+
+
+  .form {
+    margin: 3em;
+  }
+
+
+  @media (min-width:1281px) {
+
+      .container-2 {
+        display: grid;
+        align-items: center; 
+        grid-template-columns: 1fr 1fr;
+        }
+
+        .logo-black {
+          width: 40em;
+          height: 30em;
+        }
+  }
+  
