@@ -55,6 +55,16 @@ body, html {
     color: white;
   }
 
+  .pimg {
+    width: 30rem;
+    padding: 5px;
+  }
+
+  a {
+    margin: 10px;
+    text-decoration: none;
+    color: #000000;
+  }
 
   h1{
     font-size: 5em;
@@ -119,6 +129,26 @@ body, html {
         .logo-black {
           width: 40em;
           height: 30em;
+        }
+
+        .pimg {
+          width: 100%;
+        }
+        
+        .row {
+          display: flex;
+        }
+        
+        .column {
+          flex: 33.33%;
+          padding: 10px;
+        }
+        
+        a {
+          text-align: center;
+          padding: 20px;
+          text-decoration: none;
+          color: #000000;
         }
   }
   
